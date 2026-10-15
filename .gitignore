@@ -1,0 +1,23 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*service-account*.json
+*credentials*.json
+
+# PyAirbyte local cache and state
+.cache/
+*.duckdb
+*.duckdb.wal
+
+# Logs and editor/OS files
+*.log
+.vscode/
+.idea/
+.DS_Store
